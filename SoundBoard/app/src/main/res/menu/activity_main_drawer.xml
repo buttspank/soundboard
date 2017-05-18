@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/jedi_sounds"
+            android:title="Jedi" />
+        <item
+            android:id="@+id/sith_sounds"
+            android:title="Sith" />
+        <item
+            android:id="@+id/weapon_sounds"
+            android:title="Weapons" />
+        <item
+            android:id="@+id/creature_sounds"
+            android:title="Creatures" />
+    </group>
+
+
+</menu>
