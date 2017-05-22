@@ -11,7 +11,7 @@ import android.view.ViewGroup;
  * Created by jacob55052 on 5/19/2017.
  */
 public class WeaponsFragment extends Fragment {
-
+//Weapons Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_weapons, container, false);
 
