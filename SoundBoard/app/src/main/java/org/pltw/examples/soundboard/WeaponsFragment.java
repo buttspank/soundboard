@@ -12,6 +12,7 @@ import android.view.ViewGroup;
  */
 public class WeaponsFragment extends Fragment {
 //Weapons Fragment
+    //Testing
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_weapons, container, false);
 
