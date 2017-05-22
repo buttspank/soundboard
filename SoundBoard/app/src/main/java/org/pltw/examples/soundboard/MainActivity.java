@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.sith_sounds) {
 
         } else if (id == R.id.weapon_sounds) {
+            contentFragment = new WeaponsFragment();
 
         } else if (id == R.id.creature_sounds) {
 
