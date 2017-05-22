@@ -3,6 +3,9 @@ package org.pltw.examples.soundboard;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -80,7 +83,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        Fragment contentFragment = null;
+
         if (id == R.id.jedi_sounds) {
+            contentFragment = new JediFragment();
+           // Log.e("Testing", "Made new Jedi Fragment");
             // Handle the camera action
         } else if (id == R.id.sith_sounds) {
 
@@ -88,6 +95,12 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.creature_sounds) {
 
+        }
+
+        if(contentFragment != null){
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, contentFragment);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
