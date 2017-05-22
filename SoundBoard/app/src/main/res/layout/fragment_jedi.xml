@@ -3,9 +3,54 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/jedi_button1"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 1"
+            android:id="@+id/jedi_button1"
+            android:onClick="onJedi_1Click"
+            android:singleLine="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 2"
+            android:id="@+id/jedi_button2"
+            android:longClickable="false"
+            android:onClick="onJedi_2Click"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 3"
+            android:id="@+id/jedi_button3"
+            android:onClick="onJedi_3Click"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 4"
+            android:id="@+id/jedi_button4"
+            android:onClick="onJedi_4Click"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 5"
+            android:id="@+id/jedi_button5"
+            android:onClick="onJedi_5Click"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jedi 6"
+            android:id="@+id/jedi_button6"
+            android:onClick="onJedi_6Click"/>
+    </LinearLayout>
+
 </LinearLayout>
