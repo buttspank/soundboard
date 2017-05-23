@@ -19,6 +19,6 @@ public class Weapons extends MainActivity {
 
         mWeapons1 = (Button) findViewById(R.id.Weapons1);
 
-        mpW1 = MediaPlayer.create(this, R.raw.Blaster_Droideka);
+        mpW1 = MediaPlayer.create(this, R.raw.blaster_imperial);
     }
 }
