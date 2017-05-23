@@ -15,9 +15,13 @@ public class Sith extends MainActivity {
     public Button mVader1;
     public Button mVader2;
     public Button mVader3;
+    public Button mVader4;
+    public Button mVader5;
     private MediaPlayer mpDV1;
     private MediaPlayer mpDV2;
     private MediaPlayer mpDV3;
+    private MediaPlayer mpDV4;
+    private MediaPlayer mpDV5;//end vader
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +31,13 @@ public class Sith extends MainActivity {
         mVader1 = (Button) findViewById(R.id.vader1);
         mVader2 = (Button) findViewById(R.id.vader2);
         mVader3 = (Button) findViewById(R.id.vader3);
+        mVader4 = (Button) findViewById(R.id.vader4);
+        mVader5 = (Button) findViewById(R.id.vader5);
         mpDV1 = MediaPlayer.create(this, R.raw.darthvader_yourfather);
         mpDV2 = MediaPlayer.create(this, R.raw.darthvader_dontunderestimate);
         mpDV3 = MediaPlayer.create(this, R.raw.darthvader_failedme);
+        mpDV4 = MediaPlayer.create(this, R.raw.DV_disturbg);
+        mpDV5 = MediaPlayer.create(this, R.raw.DV_theme);//end vader
     }
 
     private void delayPlaying(int delay) throws InterruptedException {
@@ -56,4 +64,14 @@ public class Sith extends MainActivity {
         Log.e(TAG, "Sith 3 clicked");
         mpDV3.start();
     }
+    public void onSith4Click(View view) {
+        mpDV4.seekTo(0);
+        Log.e(TAG, "Sith 4 clicked");
+        mpDV4.start();
+    }
+    public void onSith5Click(View view) {
+        mpDV5.seekTo(0);
+        Log.e(TAG, "Sith 5 clicked");
+        mpDV5.start();
+    }//end vader
 }
