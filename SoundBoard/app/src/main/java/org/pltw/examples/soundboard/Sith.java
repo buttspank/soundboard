@@ -46,4 +46,14 @@ public class Sith extends MainActivity {
         Log.e(TAG, "Sith 1 clicked");
         mpDV1.start();
     }
+    public void onSith2Click(View view) {
+        mpDV2.seekTo(0);
+        Log.e(TAG, "Sith 2 clicked");
+        mpDV2.start();
+    }
+    public void onSith3Click(View view) {
+        mpDV3.seekTo(0);
+        Log.e(TAG, "Sith 3 clicked");
+        mpDV3.start();
+    }
 }
