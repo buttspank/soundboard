@@ -6,6 +6,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button" />
+        android:text="weapons 1"
+        android:singleLine="true"
+        android:onClick="onWeapons_1Click"
+        android:nestedScrollingEnabled="true"
+        android:id="@+id/Weapons1" />
 </LinearLayout>
