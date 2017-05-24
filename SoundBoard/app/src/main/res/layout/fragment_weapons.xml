@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons 1"
+            android:singleLine="true"
+            android:onClick="onWeapons1Click"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/Weapons1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons2"
+            android:id="@+id/Weapons2"
+            android:onClick="onWeapons2Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons3"
+            android:id="@+id/Weapons3"
+            android:onClick="onWeapons3Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons4"
+            android:id="@+id/Weapons4"
+            android:onClick="onWeapons4Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons5"
+            android:id="@+id/Weapons5"
+            android:onClick="onWeapons5Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons6"
+            android:id="@+id/Weapons6"
+            android:onClick="onWeapons6Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons7"
+            android:id="@+id/Weapons7"
+            android:onClick="onWeapons7Click" />
+    </LinearLayout>
+
+</LinearLayout>
