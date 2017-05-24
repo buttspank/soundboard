@@ -36,8 +36,8 @@ public class Sith extends MainActivity {
         mpDV1 = MediaPlayer.create(this, R.raw.darthvader_yourfather);
         mpDV2 = MediaPlayer.create(this, R.raw.darthvader_dontunderestimate);
         mpDV3 = MediaPlayer.create(this, R.raw.darthvader_failedme);
-        mpDV4 = MediaPlayer.create(this, R.raw.DV_disturbg);
-        mpDV5 = MediaPlayer.create(this, R.raw.DV_theme);//end vader
+        mpDV4 = MediaPlayer.create(this, R.raw.dv_disturbg);
+        mpDV5 = MediaPlayer.create(this, R.raw.dv_theme);//end vader
     }
 
     private void delayPlaying(int delay) throws InterruptedException {
