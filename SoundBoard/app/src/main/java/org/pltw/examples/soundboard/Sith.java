@@ -22,6 +22,8 @@ public class Sith extends MainActivity {
     private MediaPlayer mpDV3;
     private MediaPlayer mpDV4;
     private MediaPlayer mpDV5;//end vader
+    public Button mVaderObiWan;
+    private MediaPlayer mpDVOW;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,8 @@ public class Sith extends MainActivity {
         mpDV3 = MediaPlayer.create(this, R.raw.darthvader_failedme);
         mpDV4 = MediaPlayer.create(this, R.raw.dv_disturbg);
         mpDV5 = MediaPlayer.create(this, R.raw.dv_theme);//end vader
+        mVaderObiWan = (Button) findViewById(R.id.vader_obi);
+        mpDVOW = MediaPlayer.create(this, R.raw.dv_obi_circleiscomplete);
     }
 
     private void delayPlaying(int delay) throws InterruptedException {
