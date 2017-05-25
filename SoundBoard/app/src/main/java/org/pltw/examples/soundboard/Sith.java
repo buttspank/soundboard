@@ -28,7 +28,7 @@ public class Sith extends MainActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sith);
+        setContentView(R.layout.fragment_sith);
 
         mVader1 = (Button) findViewById(R.id.vader1);
         mVader2 = (Button) findViewById(R.id.vader2);
