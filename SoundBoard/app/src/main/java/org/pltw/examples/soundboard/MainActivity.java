@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity
            // Log.e("Testing", "Made new Jedi Fragment");
             // Handle the camera action
         } else if (id == R.id.sith_sounds) {
+            contentFragment = new SithFragment();
 
         } else if (id == R.id.weapon_sounds) {
             contentFragment = new WeaponsFragment();
