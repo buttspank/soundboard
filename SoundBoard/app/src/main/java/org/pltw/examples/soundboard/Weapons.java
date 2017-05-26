@@ -72,6 +72,7 @@ public class Weapons extends MainActivity {
         mpW5 = MediaPlayer.create(this, R.raw.falcon_guns);
         mpW6 = MediaPlayer.create(this, R.raw.isd_laser2);
         mpW7 = MediaPlayer.create(this, R.raw.lightsaber_01);
+
         mpW8 = MediaPlayer.create(this, R.raw.lightsaber_04);
         mpW9 = MediaPlayer.create(this, R.raw.naboo_torp);
         mpW10 = MediaPlayer.create(this, R.raw.probe_gun);
@@ -80,6 +81,17 @@ public class Weapons extends MainActivity {
         mpW13 = MediaPlayer.create(this, R.raw.tie_fire);
         mpW14 = MediaPlayer.create(this, R.raw.xwing_laser);
         mpW15 = MediaPlayer.create(this, R.raw.xwing_proton);
+
+
+
+
+       mpW2 = MediaPlayer.create(this, R.raw.blaster_ricochet);
+        mpW3 = MediaPlayer.create(this, R.raw.blaster_solo);
+        mpW4 = MediaPlayer.create(this, R.raw.dstar_gun4);
+        mpW5 = MediaPlayer.create(this, R.raw.dstar_super1);
+        mpW6 = MediaPlayer.create(this, R.raw.falcon_guns);
+        mpW7 = MediaPlayer.create(this, R.raw.isd_laser2);
+
 
     }
 
