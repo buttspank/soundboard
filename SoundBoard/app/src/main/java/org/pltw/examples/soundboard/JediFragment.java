@@ -90,7 +90,4 @@ public class JediFragment extends Fragment{
         Log.e(TAG, "Jedi 1 Clicked");
         jedSound6.start();
     }
-
-
-    }
 }
